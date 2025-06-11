@@ -5,8 +5,6 @@
 
 Script Python pour extraire l'heure des noms de fichiers vidéo de drone et modifier les métadonnées de timecode pour faciliter la synchronisation en post-production.
 
-![Demo](https://via.placeholder.com/600x300/2196F3/FFFFFF?text=HeureFichierToTC+Demo)
-
 ## 🎯 Problématique
 
 Les rushes de drone n'ont souvent pas de son et utilisent un timecode qui ne correspond pas aux autres caméras du tournage. Cependant, le nom de fichier contient généralement l'heure de création du fichier, ce qui peut servir de référence pour la synchronisation.
@@ -29,7 +27,7 @@ Les rushes de drone n'ont souvent pas de son et utilisent un timecode qui ne cor
 
 ### Installation rapide
 ```bash
-git clone https://github.com/votre-username/HeureFichierToTC.git
+git clone https://github.com/CaGratine/HourFileToTC.git
 cd HeureFichierToTC
 pip install -r requirements.txt
 ```
@@ -80,11 +78,6 @@ MP4, MOV, AVI, MKV, M4V, WMV, FLV, WEBM
 # Afficher l'aide
 python timecode_extractor.py --help
 
-# Tester les patterns
-python examples.py
-
-# Exécuter les tests
-python test_extractor.py
 ```
 
 ## 🔧 Configuration
@@ -132,7 +125,7 @@ En cas de problème :
 1. Vérifiez que Python est installé : `python --version`
 2. Vérifiez que FFmpeg est installé : `ffmpeg -version`
 3. Installez les dépendances : `pip install -r requirements.txt`
-4. Consultez les [Issues](https://github.com/votre-username/HeureFichierToTC/issues)
+4. Consultez les [Issues](https://github.com/CaGratine/HourFileToTC/issues)
 
 ---
 
