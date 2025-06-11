@@ -28,9 +28,12 @@ Les rushes de drone n'ont souvent pas de son et utilisent un timecode qui ne cor
 ### Installation rapide
 ```bash
 git clone https://github.com/CaGratine/HourFileToTC.git
-cd HeureFichierToTC
+cd HourFileToTC
 pip install -r requirements.txt
 ```
+
+### 🍎 Installation macOS/Linux
+Consultez le [guide spécifique macOS/Linux](README_MACOS_LINUX.md) pour l'installation sur ces plateformes.
 
 ## 📖 Utilisation
 
